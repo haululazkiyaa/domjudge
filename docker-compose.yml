@@ -34,5 +34,10 @@ services:
     # If you have an older version upgrade it, or you can comment out this line
     cgroup: host
     working_dir: ${PWD}
+    networks:
+      - nginx-net
     environment:
       - PROJECT_DIR=${PWD}
+      - VIRTUAL_HOST=cp.helloprodigi.web.id
+      - LETSENCRYPT_HOST=cp.helloprodigi.web.id
+      - LETSENCRYPT_EMAIL=admin@helloprodigi.web.id
