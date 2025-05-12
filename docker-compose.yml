@@ -40,4 +40,5 @@ services:
       - PROJECT_DIR=${PWD}
       - VIRTUAL_HOST=cp.helloprodigi.web.id
       - LETSENCRYPT_HOST=cp.helloprodigi.web.id
-      - LETSENCRYPT_EMAIL=admin@helloprodigi.web.id
+      - LETSENCRYPT_EMAIL=you@example.com
+
